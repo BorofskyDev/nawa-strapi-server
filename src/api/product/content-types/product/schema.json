@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Brand": {
+      "type": "string",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "StockAsNeeded": {
+      "type": "boolean",
+      "required": true
+    },
+    "DailyPar": {
+      "type": "integer",
+      "required": true
+    },
+    "ShelfLife": {
+      "type": "integer",
+      "required": true
+    },
+    "par_sheet": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::par-sheet.par-sheet"
+    }
+  }
+}

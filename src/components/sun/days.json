@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sun_days",
+  "info": {
+    "displayName": "days"
+  },
+  "options": {},
+  "attributes": {
+    "taskDays": {
+      "type": "enumeration",
+      "enum": [
+        "sun",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "required": true
+    }
+  }
+}

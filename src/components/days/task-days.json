@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_days_task_days",
+  "info": {
+    "displayName": "taskDays",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sun": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "mon": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "tue": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "wed": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "thu": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "fri": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "sat": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  }
+}
